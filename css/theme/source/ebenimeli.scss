@@ -87,12 +87,27 @@ body {
 	border: 1px solid #fff;
 }
 
+img.left {
+  float: left;
+  height: 529px;
+}
+
+
+img.right {
+  float: right;
+  height: 529px;
+  margin-right: 50px;
+}
+
+
+
 img.rounded {
     border-radius: 50%;
     /*border: 7px dotted steelblue;*/
     padding: 2px;
     width: 300px;
     float: right;
+    margin-right: 50px;
     /*display: inline-block;*/ /* Asegura que la sombra se aplique correctamente */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
   
@@ -105,8 +120,7 @@ img.squared {
     margin-right: 50px;
     width: 300px;
     float: right;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .image-container {
@@ -149,7 +163,7 @@ img.squared {
 }
 
   .large {
-    width: 940px;
+    /*width: 940px;*/
     height: 529px;
     left: 0px;
     top: 100px;
@@ -162,6 +176,14 @@ img.squared {
     width: 100%; /* Make the image take up the entire container width */
     height: 100%; /* Make the image take up the entire container height */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+
+  b {
+    color: steelblue;
+  }
+
+  ul li {
+    list-style: square;
   }
 
   
